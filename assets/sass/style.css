@@ -1,123 +1,72 @@
-.btn-blue {
-  color: white;
-  background-color: dodgerblue;
-  border: none; }
+/*
+Error: Undefined variable: "$buttoneborder".
+        on line 19 of style.scss
 
-.btn-red {
-  color: white;
-  background-color: F20574;
-  border: none; }
+14: 
+15: 
+16: .btn-blue{
+17:     color: white;
+18:     background-color: dodgerblue;
+19:     border: $buttoneborder;
+20: }
+21: 
+22: .btn-red{
+23:     color: white;
+24:     background-color: $dangerred;
 
-.btn-back {
-  color: dodgerblue;
-  background-color: white;
-  border: 1px solid dodgerblue; }
-
-.click:hover {
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75); }
-
-.click:active {
-  box-shadow: none; }
-
-.bruce {
-  background-image: radial-gradient(circle, #147dd9, #0089df, #0095e4, #00a1e8, #12aceb);
-  text-align: center;
-  width: 100%;
-  color: white;
-  font-family: 'Roboto', sans-serif; }
-
-.bruce * {
-  font-size: 70px; }
-
-.quotestrapwhite {
-  display: flex;
-  border: 5px solid white;
-  align-content: center;
-  margin: auto auto;
-  padding: 35px 35px;
-  background-color: darkslategray;
-  color: white;
-  font-style: italic;
-  font-family: 'Roboto', sans-serif; }
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 20vw;
-  background-color: #f1f1f1;
-  height: 100%;
-  position: fixed;
-  overflow: auto; }
-
-.navbar a {
-  color: #000;
-  text-decoration: none;
-  width: 60px; }
-
-.navbar li:hover {
-  background-color: #4CAF50;
-  color: white; }
-
-.active {
-  background-color: #4CAF50;
-  color: white; }
-
-.navbar li {
-  height: auto;
-  padding: 8px; }
-
-.rafgrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
-  background-color: darkslategrey; }
-
-#grid {
-  position: relative;
-  width: 500px;
-  height: 500px;
-  margin-top: 5px;
-  left: 21vw; }
-
-#SQ1 {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  background-color: dodgerblue; }
-
-#SQ2 {
-  grid-row-start: 5;
-  grid-row-end: 8;
-  grid-column-start: 4;
-  grid-column-end: 7;
-  background-color: dodgerblue; }
-
-.rafform {
-  background-color: #324359;
-  color: #F0F3F7;
-  margin-top: 5px; }
-
-.rafform input {
-  background-color: #D9E1EA;
-  color: #495971;
-  border: none;
-  border-radius: 1px; }
-
-.rafcode {
-  background-color: #000;
-  color: green;
-  font-family: "Courier New", Courier, monospace; }
-
-.titles {
-  background-color: #324359;
-  font-family: 'Poppins', sans-serif; }
-
-#form {
-  position: relative;
-  left: 21vw; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+style.scss:19
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$buttoneborder\".\A         on line 19 of style.scss\A \A 14: \A 15: \A 16: .btn-blue{\A 17:     color: white;\A 18:     background-color: dodgerblue;\A 19:     border: $buttoneborder;\A 20: }\A 21: \A 22: .btn-red{\A 23:     color: white;\A 24:     background-color: $dangerred;"; }
